@@ -1,0 +1,55 @@
+body {
+    background-color: lightblue; /* this makes the body lightblue */
+    opacity:1.0;
+    background-image: url(Fish.jpg);
+    background-repeat: no repeat;
+    background-attachment:fixed;
+    margin: 0px 10px;
+}
+
+h1 {
+    color:navy;
+    margin-left:20px;
+    text-align: center;
+    border-style: dashed;
+    border-width: 10px;
+    border-color:#a52a2a;
+}
+
+p.game{
+    color:mediumseagreen;
+    text-align: left;
+    
+}
+p.big{
+    font: italic small-caps bold 12px/30px georgia,serif;
+}
+h2 {
+    border:2px solid tomato;
+    color:#a52a2a;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px red;
+    padding: 50px 30px;
+    width: 200px;
+    height:400px;
+    outline-style: dotted;
+    outline-width: thick;
+    outline-color:aliceblue;
+    margin: 10px;
+    outline-offset:10px;
+    
+}
+h4 {
+    background-color: #a52a2a;
+    color:white;
+    border:20px solid #a52a2a;
+    text-align: right;
+    font-family: tahoma, verdana, san serif;
+    font-weight:900;
+    border-radius: 5px;
+    
+}
+h3{
+    border: 30px groove pink;
+    max-width: 300px;
+}
