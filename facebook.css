@@ -1,0 +1,130 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container for layout */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+/* Left Section: Logo and Tagline */
+.logo-section {
+    flex-basis: 50%;
+    padding-right: 50px;
+}
+
+.logo-img {
+    width: 300px;
+    margin-bottom: -10px;
+}
+
+.logo-tagline {
+    font-size: 28px;
+    line-height: 1.2;
+    color: #1c1e21;
+}
+
+/* Right Section: Login Form */
+.login-form-section {
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.login-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 20px;
+}
+
+/* Form Elements */
+.login-form input {
+    width: 90%;
+    padding: 14px;
+    margin-bottom: 12px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+.login-form input:focus {
+    outline: none;
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+button {
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px 0;
+    cursor: pointer;
+}
+
+.login{
+    background-color: #1877f2;
+    color: #fff;
+}
+
+.login:hover {
+    background-color: #166fe5;
+}
+
+.forgot-password {
+    display: block;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #dddfe2;
+    margin: 20px 0;
+}
+
+.create{
+    background-color: #42b72a;
+    color: #fff;
+    padding: 14px 20px;
+    font-size: 17px;
+    width: auto; /* Overrides the 100% width from .btn */
+}
+
+.create:hover {
+    background-color: #36a420;
+}
+
+.create-page-link {
+    margin-top: 28px;
+    font-size: 14px;
+}
+
+.create-page-link a {
+    color: #1c1e21;
+    text-decoration: none;
+}
+
+.create-page-link a:hover {
+    text-decoration: underline;
+}
