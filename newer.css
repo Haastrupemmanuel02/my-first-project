@@ -40,8 +40,8 @@ p{
     border:8px solid red;
     background-color: aqua;
     display: flex;
-     */
-/* } */
+     
+} */
 /*#cake{
     color: brown;
     border: 2px solid brown;
@@ -147,4 +147,9 @@ ul{
 }
 .col-12 {
     width: 100%;
+}
+@media only screen and (max-width:600px) {
+    body{
+        background-color: lightblue;
+    }
 }
